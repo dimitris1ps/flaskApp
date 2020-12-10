@@ -11,6 +11,7 @@ Simple bootstrap <a href="https://github.com/dimitris1ps/flaskApp/tree/main/boot
 <li>
 With more bootstrap <a href="https://github.com/dimitris1ps/flaskApp/tree/main/bootstrap_flask">(bootstrap_flask)</a>
 </li>
+
 ![screenshot2](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/bootstrap_flask.png "screenshot2")
 
 </ul>
