@@ -1,4 +1,10 @@
 # flask-bootstrap
-Basic flask app using twitter bootstrap template.
-Screenshot
+Basic flask apps
+
+<ul>
+<li>
+Simple bootstrap
+</li>
+</ul>
+
 ![screenshot](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/screenshot.png "screenshot")
