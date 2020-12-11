@@ -26,4 +26,10 @@ Flask with google charts <a href="https://github.com/dimitris1ps/flaskApp/tree/m
 
 ![screenshot4](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_google_chart.png "screenshot4")
 
+<li>
+Flask with google charts <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flask_wtfgen">(flask_wtfgen)</a>
+</li>
+
+![screenshot5](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_wtfgen.png "screenshot5")
+
 </ul>

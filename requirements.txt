@@ -16,3 +16,4 @@ python-http-client
 shortuuid
 Werkzeug
 Flask-Charts
+Flask-WTFGen
