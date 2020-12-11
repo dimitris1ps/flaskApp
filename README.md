@@ -20,4 +20,10 @@ Dashboard with bootstrap <a href="https://github.com/dimitris1ps/flaskApp/tree/m
 
 ![screenshot3](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_dashboard.png "screenshot3")
 
+<li>
+Flask with google charts <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flask_google_chart">(flask_google_chart)</a>
+</li>
+
+![screenshot4](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_google_chart.png "screenshot4")
+
 </ul>
