@@ -14,4 +14,10 @@ With more bootstrap <a href="https://github.com/dimitris1ps/flaskApp/tree/main/b
 
 ![screenshot2](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/bootstrap_flask.png "screenshot2")
 
+<li>
+Dashboard with bootstrap <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flask_dashboard">(flask_dashboard)</a>
+</li>
+
+![screenshot3](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_dashboard.png "screenshot3")
+
 </ul>
