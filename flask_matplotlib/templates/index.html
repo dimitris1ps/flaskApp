@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matplotlib</title>
+  <style>
+
+    #num_of_points{
+      padding: 0;
+      height: 30px;
+      width: 100px;
+      font-size:20px;
+      text-align: center;
+    }
+
+    /* input[id="num_of_points"]
+    {
+        font-size:14px;
+    } */
+  </style>
+</head>
+<body>
+
+  <h1>Flask and matplotlib</h1>
+    <h2>Random data points={{points}}</h2>
+
+      <form action="" method="post" novalidate>
+          {{ form.hidden_tag() }}
+          <p>
+              {{ form.num_of_points.label }} {{ form.num_of_points}} <br> {{ form.submit() }}
+          </p>
+      </form>
+
+    <h3>Plot as a png</h3>
+    <img src={{path}} alt="random points as png" height="500">
+</body>
+</html>
