@@ -32,4 +32,11 @@ Flask with google charts <a href="https://github.com/dimitris1ps/flaskApp/tree/m
 
 ![screenshot5](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_wtfgen.png "screenshot5")
 
+<li>
+Flask with Matplotlib <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flask_matplotlib">(flask_matplotlib)</a>
+</li>
+
+![screenshot5](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_matplotlib.png "screenshot6")
+
+
 </ul>
