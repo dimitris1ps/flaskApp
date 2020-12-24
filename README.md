@@ -36,7 +36,13 @@ Flask with google charts <a href="https://github.com/dimitris1ps/flaskApp/tree/m
 Flask with Matplotlib <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flask_matplotlib">(flask_matplotlib)</a>
 </li>
 
-![screenshot5](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_matplotlib.png "screenshot6")
+![screenshot6](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_matplotlib.png "screenshot6")
+
+<li>
+Flask with d3.js <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flask_d3_dashboard">(flask_d3_dashboard)</a>
+</li>
+
+![screenshot7](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_d3_dashboard.png "screenshot7")
 
 
 </ul>
