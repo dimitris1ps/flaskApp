@@ -45,4 +45,11 @@ Flask with d3.js <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flas
 ![screenshot7](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_d3_dashboard.png "screenshot7")
 
 
+<li>
+Flask login with sqlite <a href="https://github.com/dimitris1ps/flaskApp/tree/main/flask_d3_dashboard">(flask_login_app)</a>
+</li>
+
+![screenshot7](https://raw.githubusercontent.com/dimitris1ps/flaskApp/main/flask_login_app.png "screenshot7")
+
+
 </ul>

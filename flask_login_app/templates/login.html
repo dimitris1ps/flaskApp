@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="static/login_styles.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<title>Flask Auth</title>
+</head>
+<body>
+
+
+  <form method="POST" action="/login" class="login-form">
+    <p class="login-text">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-lock fa-stack-1x"></i>
+      </span>
+    </p>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="notification is-danger">
+          {{ messages[0] }}
+      </div>
+    {% endif %}
+    {% endwith %}
+    <input type="username" name="username" class="login-username" autofocus="true" required="true" placeholder="Email or Username" />
+    <input type="password" name="password" class="login-password" required="true" placeholder="Password" />
+
+    <div class="field">
+
+            <input type="checkbox" id="switch" />
+            <label for="switch" class="switch-btn">Remember</label>
+
+    </div>
+
+    <div class="submit-btn">
+    <input type="submit" name="Login" value="Login" class="login-submit" />
+  </div>
+    <!-- <button class="button">Login</button> -->
+  </form>
+  <a href="mailto:psaradellis1d@gmail.com" class="login-forgot-pass">Cannot login? Right click and copy email address</a>
+  <div class="underlay-photo"></div>
+  <div class="underlay-black"></div>
+</body>
+</html>
