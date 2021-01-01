@@ -2,11 +2,13 @@ from flask import Flask, render_template, redirect, url_for, request, flash
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
+from flask_ngrok import run_with_ngrok # from local machine to web, run only while runnign locally.
 
 # init SQLAlchemy and app
 app = Flask(__name__)
+run_with_ngrok(app)  # Start ngrok when app is run
 
-path = "C:/Users/dpsar/Documents/projects/github/flaskApp/Flask-Login-App-Tutorial"
+path = "C:/Users/dpsar/Documents/projects/github/flaskApp/flask_login_app"
 app.config['SECRET_KEY'] = 'secret-key-goes-here'
 app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{path}/Data/Users.db' # assuming that the db is in the folder Data
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -74,4 +76,4 @@ def logout():
     return redirect(url_for('login'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
